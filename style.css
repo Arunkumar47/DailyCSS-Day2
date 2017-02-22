@@ -1,0 +1,486 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrap{
+  width: 1280px;
+  height: 1080px;
+  background: white;
+  position: absolute;
+  top: 20px;
+}
+
+.head{
+  width:  300px;
+  height: 300px;
+  background: #617abc;
+  border-radius: 150px;
+  position: relative;
+  top:  100px;
+  left: 600px;
+}
+
+.headwhite{
+   width:  300px;
+  height: 300px;
+  background: #e0ddaa;
+  border-radius: 150px;
+  position: absolute;
+  top:  0px;
+  left: 0px;  
+}
+
+.headwhiteclip{
+  clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 50%);
+}
+
+.headinside{
+  width:  200px;
+  height: 200px;
+  background: #6ea5de;
+  border-radius: 100px ;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.onehalf{
+  width:  250px;
+  height: 250px;
+  background: #4d54ac;
+  border-radius: 125px ;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.onehalfclipme{
+  clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%);
+}
+
+.eyes{
+  width:  16px;
+  height: 16px;
+  background: #273069;
+  position: absolute;
+  border-radius: 8px;
+  top: 170px;
+  left: 170px;
+}
+
+.mark1{
+  width:  16px;
+  height: 16px;
+  background: #4c64ac;
+  position: absolute;
+  border-radius: 8px;
+  top:  170px;
+  left: 20px;  
+}
+
+.mark2{
+  width:  16px;
+  height: 16px;
+  background: #4c64ac;
+  position: absolute;
+  border-radius: 8px;
+  top:  210px;
+  left: 39px;
+}
+
+.mark3{
+  width:  16px;
+  height: 16px;
+  background: #4c64ac;
+  position: absolute;
+  border-radius: 8px;
+  top:  245px;
+  left: 73px;  
+}
+
+.clipme{
+  position: absolute;
+  clip-path: polygon(0% 50%, 100% 50%, 100% 100%, 0% 100%);
+  margin-top: 0px;
+}
+
+.trunk{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top:  100px;
+  left: 600px; 
+}
+
+.trunkwhite{
+  width: 25px;
+  height: 140px;
+  background: #e0ddaa;
+  position: absolute;
+  left: 275px;
+  top: 10px;
+}
+
+.trunkcircle{
+  width: 25px;
+  height:25px;
+  background: #e0ddaa;
+  border-radius: 50px;
+  position: absolute;
+  left: 275px;
+}
+
+.curvingtrunk{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 600px;
+}
+
+.curvingtrunk1{
+  width: 200px;
+  height: 350px;
+  background: #6079b9;
+  position: absolute;
+  top:  0px;
+  left: 75px;
+  border-radius: 100px 85px;
+}
+
+.clipct1{
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
+
+.curvingtrunkwhite1{
+  width: 200px;
+  height: 350px;
+  background: white;
+  position: absolute;
+  top:  20px;
+  left: 50px;
+  border-radius: 100px 85px ;
+}
+
+.smalldarkblue{
+  width: 150px;
+  height: 350px;
+  background: #4d54ac;
+  position: absolute;
+  top:  20px;
+  left: 100px;
+  border-radius: 100px;  
+}
+
+.clipsdb1{
+   position: absolute;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+}
+
+.whitespace{
+  width: 126px;
+  height: 350px;
+  background: white;
+  position: absolute;
+  top:  42px;
+  left: 100px;
+  border-radius: 127px 90px;
+}
+
+.rectangle{
+  width: 25px;
+  height: 175px;
+  position: absolute;
+  background: #6ea5dd;
+  top: 90px;
+  left: 225px;
+}
+
+.curvytrunkleft{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 600px;
+}
+
+.lefttrunk1{
+  width: 200px;
+  height: 350px;
+  background: #6ed3df;
+  position: absolute;
+  top:  0px;
+  left: 75px;
+  border-radius: 100px 85px;
+}
+
+.clipctleft{
+  position: absolute;
+  clip-path: polygon(0% 0%, 60% 0%, 60% 36%, 0% 36%);
+}
+
+.leftdarkblue{
+  width: 150px;
+  height: 350px;
+  background: #5f7bba;
+  position: absolute;
+  top:  20px;
+  left: 100px;
+  border-radius: 100px; 
+}
+
+.leftwhitespace{
+  width: 126px;
+  height: 350px;
+  background: white;
+  position: absolute;
+  top:  42px;
+  left: 120px;
+  border-radius: 127px 160px;
+}
+
+.cliplws{
+  position: absolute;
+  clip-path: polygon(0% 0%, 60% 0%, 60% 36%, 0% 36%);
+}
+
+.twocircles{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 600px;
+}
+
+.leftcircle{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: #6ed3df;
+  top: 76px;
+  left: 76px;
+  border-radius: 30px;
+}
+
+.rightcircle{
+  width: 21px;
+  height: 24px;
+  position: absolute;
+  background: #5f7bba;
+  top: 76px;
+  left: 100px;
+  border-radius: 30px;
+}
+
+.bodybox{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 450px;
+  top: 300px;
+}
+
+.body1{
+  width: 300px;
+  height: 100px;
+  background: #4d54ac;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bodyonecircle1{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #617abc;
+  border-radius: 100px;
+  left: -100px;
+}
+
+.clipcircle1{
+  position: absolute;
+  clip-path: polygon(50% 0%, 100000% 0%, 50% 50%, 0% -9900%);
+}
+
+.diamondbox1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #4d54ac;
+  left: -50px;
+  top: 50px;
+  transform: rotate(45deg);
+}
+
+.clipdiamondbox1{
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 50%, 0% 0%);
+}
+
+.body2{
+  width: 300px;
+  height: 100px;
+  background: #617abc;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.diamondbox2{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #5f7bbc;
+  left: -50px;
+  top: -50px;
+  transform: rotate(45deg);
+}
+
+.clipdiamondbox2{
+    position: absolute;
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 0% 0%);
+}
+
+.bodyonecircle2{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #4d54ac;
+  border-radius: 100px;
+  top: -100px;
+  left: -100px;
+}
+
+.clipcircle2{
+  position: absolute;
+  clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%);
+}
+
+.body3{
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.diamondbox3{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #4d54ac;
+  left: -50px;
+  top: -50px;
+  transform: rotate(45deg);
+}
+
+.clipdiamondbox3{
+    position: absolute;
+    clip-path: polygon(25% 75%, 50% 50%, 100% 100%, 0 100%);
+}
+
+.bodyonecircle3{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #617abc;
+  border-radius: 100px;
+  top: -100px;
+  left: -100px;
+}
+
+.clipcircle3{
+  position: absolute;
+  clip-path: polygon(0% 50%, 50% 50%, 50% 100%, 0% 100%);
+}
+
+.body4{
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.diamondbox4{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: #6ed3df;
+  left: -50px;
+  top: 50px;
+  transform: rotate(45deg);
+}
+
+.clipdiamondbox4{
+    position: absolute;
+    clip-path: polygon(25% 25%, 50% 50%, 0 100%, 0 0);
+}
+
+.bodyonecircle4{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #6ea5de;
+  border-radius: 100px;
+  top: 0px;
+  left: -100px;
+}
+
+.clipcircle4{
+  position: absolute;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 0% 50%);
+}
+
+.legs{
+  width: 60px;
+  height: 200px;
+  position: absolute;
+  background: #4d54ac;
+  top: 400px;
+  left: 350px;
+}
+
+.legs1{
+  width: 60px;
+  height: 200px;
+  position: absolute;
+  background: #617abc;
+}
+
+.cliplegs1{
+  position: absolute;
+  clip-path: polygon(100% 0%, 100% 50%, 0% 90%, 100% 90%);
+}
+
+.foot{
+  width: 80px;
+  height: 40px;
+  background: #617abc;
+  postion: absolute;
+  margin-top: 180px;
+  border-radius: 50px;
+}
+
+.fclip1{
+  position: absolute;
+  clip-path: polygon(448% 55%, 100% 0%, 75% 0%, 75% 50%); 
+}
+
+.legs2{
+  width: 60px;
+  height: 200px;
+  position: absolute;
+  background: #4d54ac;
+  top: 400px;
+  left: 690px;
+}
+
+h2{
+  position: absolute;
+  left: 170px;
+  top: 100px;
+  font-family: sans-serif;
+  font-size: 45px;
+  color: #4d54ac;
+}
